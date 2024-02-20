@@ -10,12 +10,9 @@ jobs:
         id: minikube
         uses: medyagh/setup-minikube@latest
       # now you can run kubectl to see the pods in the cluster
-      - name: kubectl
+      - name: Check kubectl Cluster Info
         run: |
-          kubectl cluster-info 
-          kubectl get pods -n kube-system 
-          echo "current-context:" $(kubectl config current-context) 
-          echo "environment-kubeconfig:" ${KUBECONFIG} 
+          kubectl cluster-info
           kubectl get nodes
           kubectl get pods -A
           kubectl version
