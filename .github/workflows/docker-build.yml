@@ -1,31 +1,22 @@
-name: Docker Build
+name: Build and Push Docker image to DockerHub
 
-on:
-  push:
-    branches:
-      - main
-
+on: push
 jobs:
-  build-and-push:
-    runs-on: ubuntu-latest
+    push:
+        name: Push Docker image to DockerHub
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v3
 
-    steps:
-      - uses: actions/checkout@v2
+            - name: Login to DockerHub
+              uses: docker/login-action@v2
+              with:
+                username: ${{ secrets.DOCKERHUB_USERNAME }}
+                password: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: jsapp:latest
-          # Добавьте другие необходимые параметры
-
-     # - name: Slack Notification
-       # if: always()
-        #uses: 8398a7/action-slack@v3
-       # with:
-        #  status: ${{ job.status }}
-        #  fields: 'repo,commit'
-        #env:
-        #  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+            - name: Build and Push image
+              uses: docker/build-push-action@v4
+              with: 
+                push: true
+                tags:  jsapp:latest
