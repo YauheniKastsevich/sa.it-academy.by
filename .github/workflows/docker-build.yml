@@ -8,6 +8,8 @@ jobs:
         steps:
             - name: Checkout repo
               uses: actions/checkout@v3
+              with:
+                path: md-sa2-27-24
 
             - name: Login to DockerHub
               uses: docker/login-action@v2
@@ -19,6 +21,6 @@ jobs:
               uses: docker/build-push-action@v4
               with:
                 context: .
-                file: ./Dockerfile 
+                file: ./Yauheni_Kastsevich/08.Docker_compose/task2/Dockerfile 
                 push: true
                 tags: my_docker_rep/jsapp:latest
