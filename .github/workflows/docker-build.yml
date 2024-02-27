@@ -3,7 +3,6 @@ on:
   push:
     branches: 
       - 'md-sa2-27-24'
-
 jobs:
     push:
         name: Push Docker image to DockerHub
