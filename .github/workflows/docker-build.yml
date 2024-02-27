@@ -24,6 +24,6 @@ jobs:
               uses: docker/build-push-action@v4
               with:
                 context: .
-                file: ./Yauheni_Kastsevich/08.Docker_compose/task2/Dockerfile 
+                file: Yauheni_Kastsevich/08.Docker_compose/task2/Dockerfile
                 push: true
                 tags: my_docker_rep/jsapp:latest
