@@ -2,7 +2,7 @@ name: Build and Push Docker image to DockerHub
 on:
   push:
     branches: 
-      - 'md-sa2-27-24'
+      - 'main'
 jobs:
     push:
         name: Push Docker image to DockerHub
