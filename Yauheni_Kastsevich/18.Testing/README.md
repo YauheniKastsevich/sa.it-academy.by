@@ -79,18 +79,3 @@ jobs:
           path: ./logs_kubeval.txt
           channel: gitactions
 ```
-
-
-### for testing docker image use app and Dockerfile from 07.Docker
-
-
-## action resalts
-
-![docker](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/18.Testing/docker_output.png)
-
-![slack](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/18.Testing/slack.png)
-
-
-## repository for the action test(folder lab18):
-
-[GitHub link](https://github.com/NataliaBelogolovaya/git_actions.git)
