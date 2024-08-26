@@ -8,9 +8,6 @@ wget https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install
 vim argocd.yaml
 kubectl apply -f argocd.yaml -n argocd
 ```
-## repository which contains application manifests for ArgoCD
-
-[GitHUB](https://github.com/NataliaBelogolovaya/app-argocd.git)
 
 ## comands for creating secrets 
 
