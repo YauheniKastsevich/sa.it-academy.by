@@ -298,7 +298,6 @@ tolerations: []
 affinity: {}
 ```
 
-[GitHub link](https://github.com/NataliaBelogolovaya/helm-charts.git)
 
 [GitHub Helm Page](https://nataliabelogolovaya.github.io/helm-charts/jenkins/)
 
