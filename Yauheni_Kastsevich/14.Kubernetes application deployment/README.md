@@ -297,10 +297,3 @@ tolerations: []
 
 affinity: {}
 ```
-
-
-[GitHub Helm Page](https://nataliabelogolovaya.github.io/helm-charts/jenkins/)
-
-![pods](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/14.Kubernetes%20application%20deployment/jenkins.png)
-
-![web](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/14.Kubernetes%20application%20deployment/jenkins-web.png)
