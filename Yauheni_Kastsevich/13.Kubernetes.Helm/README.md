@@ -72,10 +72,3 @@ spec:
       type: local      
 
 ```
-
-![wordpress](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/13.Kubernetes.Helm/wordpress_adminpage.png)
-
-![drupal](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/13.Kubernetes.Helm/drupal.png)
-
-![k9s](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/13.Kubernetes.Helm/k9s.png)
-
