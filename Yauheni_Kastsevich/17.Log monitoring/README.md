@@ -179,11 +179,6 @@
   "type": "histogram"
 }
 ```
-
-## for inatalling graphana and loki use yaml files from: 
-
-[GitHub link](https://github.com/NataliaBelogolovaya/monitoring.git)
-
 ## dashbord:
 
 ![dashbord](https://github.com/NataliaBelogolovaya/sa.it-academy.by/blob/md-sa2-27-24/Natalia_Myslivets/17.Log%20monitoring/dashboard.png)
